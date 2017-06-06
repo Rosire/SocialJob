@@ -1,0 +1,34 @@
+<?page title="Social Job"?>
+<?link rel="shortcut icon" type="image/x-icon" href="/imagen/link.png"?>
+<?link rel="icon" type="image/x-icon" href="/imagen/link.png"?>
+<!-- Fuente -->
+
+<?link href="less/fonts.css" rel="stylesheet" type="text/css"?>
+<!-- Load Bootstrap  -->
+<?link href="less/index.css.dsp" rel="stylesheet" type="text/css"?>
+<?link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"?>
+<?link href="bootstrap/css/font-awesome.css" rel="stylesheet" type="text/css"?>
+
+<?link href="materialize/css/materialize.css" rel="stylesheet" type="text/css"?>
+
+<?script src="bootstrap/js/jquery-2.1.1.min.js" ?>
+<?script src="bootstrap/js/bootstrap.min.js" ?>
+<?script src="materialize/js/materialize.js" ?>
+
+<zk xmlns:w="client" xmlns:n="native">
+	<window sclass="windows" mode="highlighted" position="center"
+		width="40%" border="none">
+		<caption sclass="captionwindow" iconSclass="z-icon-clock-o"
+			label="Sesión Expirada" />
+		<vbox>
+			La página o componente que solicitó ya no está disponible.
+			Esto normalmente es causado por tiempo de espera, la
+			apertura de muchas páginas Web, o reinicio del servidor.
+		</vbox>
+		<div align="center">
+			<n:a href="index.zul">Ir al Login</n:a>
+		</div>
+	</window>
+</zk>
+
+

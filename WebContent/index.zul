@@ -1,0 +1,289 @@
+<?page title="Social Job"?>
+
+<?link rel="shortcut icon" type="image/x-icon" href="/imagen/link.png"?>
+<?link rel="icon" type="image/x-icon" href="/imagen/link.png"?>
+
+<!-- Load Bootstrap  -->
+<?link href="less/index.css.dsp" rel="stylesheet" type="text/css"?>
+<?link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"?>
+<?link href="bootstrap/css/font-awesome.css" rel="stylesheet" type="text/css"?>
+
+<!-- Google Open Sans font -->
+<?link href="less/fonts.css" rel="stylesheet" type="text/css"?>
+
+<!-- Load Materialize  -->
+<?link href="materialize/css/materialize.css" rel="stylesheet" type="text/css"?>
+
+<?script src="bootstrap/js/bootstrap.min.js" ?>
+<?script src="materialize/js/materialize.js" ?>
+
+<zk xmlns:n="native">
+
+	<include src="vista/navbarIndex.zul" />
+
+	<html>
+
+		
+		<![CDATA[ <head> <meta charseT="UTF-8"/> <!-- Bootstrap core CSS
+		-->
+
+		<link href="bootstrap/css/portal/mainOrg.css" rel="stylesheet">
+
+		<link href="bootstrap/css/portal/prettyPhoto.css"
+		rel="stylesheet"> </head>
+
+		<body data-spy="scroll" data-target="#navbar" data-offset="0">
+
+		<section id="main-slider" class="carousel"> <div
+		class="carousel-inner"> <div class="item active"> <div
+		class="container"> <div class="carousel-content"> <h1>SocialJob
+		- ¡Tus trabajos a la mano!</h1> <p class="lead">Ofrecemos los
+		mejores planes de servicios para los trabajos cotidianos de tu
+		empresa y mas. ¿Que esperas?<br>Contactanos ya!</p> </div>
+		</div> </div><!--/.item--> <div class="item"> <div
+		class="container"> <div class="carousel-content"> <h1>Tus mejor
+		solución</h1> <p class="lead">Trabajamos para brindarte las
+		mejores soluciones y confiamos en nuestros profesionales. </p>
+		</div> </div> </div><!--/.item--> </div><!--/.carousel-inner-->
+
+		</section><!--/#main-slider-->
+
+		<section id="portafolio"> <div class="box"> <div class="center">
+		<h1>Portafolios</h1> </div> <table> <tr id="galeria"> <td
+		class="trabajo"> <img src="bootstrap/imgPortal/portafolio1.jpg">
+		<div>Redes</div> </td> <td class="trabajo"> <img
+		src="bootstrap/imgPortal/portafolio2.jpg">
+		<div>Conferencias</div> </td> <td class="trabajo"> <img
+		src="bootstrap/imgPortal/portafolio3.jpg"> <div>Desarrollo de
+		Software</div> </td> </tr>
+
+		<tr> <td class="trabajo"> <img
+		src="bootstrap/imgPortal/portafolio4.jpg"> <div>Descripción
+		web</div> </td> <td class="trabajo"> <img
+		src="bootstrap/imgPortal/portafolio5.jpg"> <div>Tecnologia de
+		primera</div> </td> <td > <img
+		src="bootstrap/imgPortal/portafolio6.jpg"> <div>Optimización de
+		procesos</div> </tr> </table> </div>
+
+		</section>
+
+		<section id="servicios"> <div class="container"> <div
+		class="box"> <div class="row"> <div class="center">
+		<h1>Servicios</h1> </div> <div class="col-md-4 col-sm-6"> <div
+		class="center"> <i class="fa fa-money icon-md icon-color2"></i>
+		<h4>Precios</h4> <p>Sin competencia, Eficiencia asegurada.</p>
+		</div> </div><!--/.col-md-4--> <div class="col-md-4 col-sm-6">
+		<div class="center"> <i class="fa fa-video-camera icon-md
+		icon-color6"></i> <h4>Experiencia</h4> <p>Nuestros ingenieros
+		expertos te brindaras las mas optimas soluciones.</p> </div>
+		</div><!--/.col-md-4--> <div class="col-md-4 col-sm-6"> <div
+		class="center"> <i class="fa fa-university icon-md
+		icon-color4"></i> <h4>Certificación</h4> <p>Abalado por las más
+		prestigiosas instituciones.</p> </div> </div><!--/.col-md-4-->
+
+
+
+
+		</div><!--/.row--> </div> </div><!--/.container-->
+		</section><!--/#services-->
+
+
+		<section id="pricing"> <div class="container"> <div class="box">
+		<div class="center"> <h2>¿Cuánto cuesta? </h2> <p
+		class="lead">Elige el plan que mejor se adapte a ti <br> ¡Tu
+		mejor solución!</p> </div><!--/.center--> <div
+		class="big-gap"></div> <div id="pricing-table" class="row" >
+		<div class="col-sm-4"> <ul class="plan featured"> <li
+		class="plan-name">Basico</li> <li class="plan-price">$2</li>
+		<li>Precio por hora</li> <li>Rapidez y soluciones a corto
+		plazo</li> <li>Entrega al tiempo inmediato</li> <br><br> <li
+		class="plan-action"><a href="#contact" class="btn btn-plan
+		btn-lg">Contactanos</a></li> </ul> </div>
+
+		<div class="col-sm-4"> <ul class="plan featured"> <li
+		class="plan-name">Avanzado</li> <li class="plan-price">$9</li>
+		<li>Precio por hora</li> <li>Rapidez y soluciones a corto
+		plazo</li> <li>Entrega al tiempo inmediato</li> <li>Soporte
+		tecnico</li> <li class="plan-action" ><a href="#contact"
+		class="btn btn-plan btn-lg">Contactanos</a></li> </ul> </div>
+		<div class="col-sm-4"> <ul class="plan featured"> <li
+		class="plan-name">Oro</li> <li class="plan-price">$50</li>
+		<li>Precio por hora</li> <li>Entrega al tiempo inmediato</li>
+		<li>Soporte tecnico</li> <li>Atención Especial</li> <li
+		class="plan-action"><a href="#contact" class="btn btn-plan
+		btn-lg">Contactanos</a></li> </ul> </div> </div> </div> </div>
+		</section><!--/#pricing-->
+
+		<section id="conocenos"> <div class="container"> <div
+		class="box"> <div class="center"> <h2>Nuestro Equipo</h2> <p
+		class="lead">Los mas preprarados Ingenieros.<br>Juntos suman
+		experiencia y eficacia.</p> </div> <div class="gap"></div> <div
+		id="team-scroller" class="carousel scale"> <div
+		class="carousel-inner"> <div class="item active">
+
+		<div class="col-md-12"> <div class="col-sm-4"> <div
+		class="member"> <p><img class="img-responsive img-thumbnail
+		img-circle" src="bootstrap/imgPortal/img1.jpg" alt="" ></p>
+		<h3>Rosiré Maiz<small
+		class="designation">Presidente</small></h3> </div> </div> <div
+		class="col-sm-4"> <div class="member"> <p><img
+		class="img-responsive img-thumbnail img-circle"
+		src="bootstrap/imgPortal/img2.jpg" alt="" ></p> <h3>Pedro
+		Salazar<small class="designation">Vice Presidente</small></h3>
+		</div> </div> <div class="col-sm-4"> <div class="member">
+		<p><img class="img-responsive img-thumbnail img-circle"
+		src="bootstrap/imgPortal/img3.jpg" alt="" ></p> <h3>Rosa
+		Torres<small class="designation">Asistente Vice
+		Presidencia</small></h3> </div> </div>
+
+
+		</div>
+
+
+		<div class="col-md-12"> <div class="col-sm-2"> </div> <div
+		class="col-sm-4"> <div class="member"> <p><img
+		class="img-responsive img-thumbnail img-circle"
+		src="bootstrap/imgPortal/img4.jpg" alt="" ></p> <h3
+		align="center">Delia Reyeszumeta<small
+		class="designation">Conferencista</small></h3> </div> </div>
+
+		<div class="col-sm-4"> <div class="member"> <p><img
+		class="img-responsive img-thumbnail img-circle"
+		src="bootstrap/imgPortal/img5.jpg" alt="" ></p> <h3>Adrian
+		Perez<small class="designation">Conferencista</small></h3>
+		</div> </div> </div>
+
+		<div class="col-sm-2"> </div>
+
+		</div>
+
+		</div> <a class="left-arrow" href="#team-scroller"
+		data-slide="prev"> <i class="fa fa-angle-left icon-4x"></i> </a>
+		<a class="right-arrow" href="#team-scroller" data-slide="next">
+		<i class="fa fa-angle-right icon-4x"></i> </a>
+		</div><!--/.carousel--> </div><!--/.box-->
+		</div><!--/.container--> </section><!--/#about-us-->
+
+		<section id="contact"> <div class="container"> <div class="box
+		last"> <div class="row"> <div class="col-sm-6"> <h1
+		>Contáctanos</h1> <p>Alguna duda, comunicate con nosotros para
+		mayor información.</p> <div class="status alert alert-success"
+		style="display: none"></div> <form id="main-contact-form"
+		class="contact-form" name="contact-form" method="post"
+		action="#" role="form"> <div class="row"> <div class="col-sm-6">
+		<div class="form-group"> <input type="text" class="form-control"
+		required="required" placeholder="Nombre"> </div> </div> <div
+		class="col-sm-6"> <div class="form-group"> <input type="text"
+		class="form-control" required="required" placeholder="Email">
+		</div> </div> </div> <div class="row"> <div class="col-sm-12">
+		<div class="form-group"> <textarea name="message" id="message"
+		required="required" class="form-control" rows="8"
+		placeholder="Mensaje"></textarea> </div> <div
+		class="form-group"> <button type="submit" class="btn btn-plan
+		btn-lg">Enviar Mensaje</button> </div> </div> </div> </form>
+		</div> <div class="col-sm-3">
+
+		<div class="row"> <div class="col-md-12"> <address>
+		<strong>Venezuela</strong><br> 795 Folsom Ave, Suite 600<br> San
+		Francisco, CA 94107<br> <abbr title="Phone">P:</abbr> (123)
+		456-7890 </address> </div> <div class="col-md-12"> <address>
+		<strong>Argentina</strong><br> 795 Folsom Ave, Suite 600<br> San
+		Francisco, CA 94107<br> <abbr title="Phone">P:</abbr> (123)
+		456-7890 </address> </div> <div class="col-md-12"> <address>
+		<strong>Chile</strong><br> 795 Folsom Ave, Suite 600<br> San
+		Francisco, CA 94107<br> <abbr title="Phone">P:</abbr> (123)
+		456-7890 </address> </div>
+
+		</div>
+
+		</div>
+
+		<div class="col-sm-3">
+
+
+		<div > <a class="twitter-timeline"
+		href="https://twitter.com/lotura"
+		data-widget-id="557965552166404098">Tweets por el @lotura.</a>
+		<script>!function(d,s,id){var
+		js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div> </div>
+
+
+		</div><!--/.row--> </div><!--/.box--> </div><!--/.container-->
+		</section><!--/#contact-->
+
+
+
+
+		<!-- Bootstrap core JavaScript
+		================================================== --> <!--
+		Placed at the end of the document so the pages load faster -->
+		<script src="bootstrap/js/jquery-2.1.1.min.js"></script> <script
+		src="bootstrap/js/portal/jquery.isotope.min.js"></script>
+		<script
+		src="bootstrap/js/portal/jquery.prettyPhoto.js"></script>
+
+		<script src="bootstrap/js/portal/respond.min.js"></script>
+
+
+
+		<script type="text/javascript"> $(document).ready(function(){
+		$(function(){ $('#main-slider.carousel').carousel({ interval:
+		1000, pause: false }); });
+
+		//Ajax contact var form = $('.contact-form');
+		form.submit(function () { $this = $(this);
+		$.post($(this).attr('action'), function(data) {
+		$this.prev().text(data.message).fadeIn().delay(3000).fadeOut();
+		},'json'); return false; });
+
+		//smooth scroll $('.navbar-nav > li').click(function(event) {
+		event.preventDefault(); var target =
+		$(this).find('>a').prop('hash'); $('html, body').animate({
+		scrollTop: $(target).offset().top }, 500); });
+
+		//scrollspy $('[data-spy="scroll"]').each(function () { var $spy
+		= $(this).scrollspy('refresh') })
+
+
+		}); </script>
+
+		</body>
+
+
+		]]>
+		
+		
+	</html>
+
+
+	<include src="vista/footer.zul" />
+	<script src="bootstrap/js/jquery-2.1.1.min.js"></script>
+	<script src="/bootstrap/js/bootstrap.min.js"></script>
+	<script src="materialize/js/materialize.js"></script>
+	<script src="materialize/js/materialize.min.js"></script>
+
+	<script
+		if='${execution.serverName == "www.zkoss.org" or execution.serverName == "www.potix.com"}'>
+
+
+
+		
+		<![CDATA[ var gaJsHost = (("https:" ==
+		document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost +
+		"google-analytics.com/ga.js'
+		type='text/javascript'%3E%3C/script%3E"));
+
+		var gafn = function () { if (window._gat) { gafn = null; try {
+		var pageTracker = _gat._getTracker("UA-121377-3");
+		pageTracker._setDomainName("zkoss.org");
+		pageTracker._initData(); pageTracker._trackPageview(); } catch
+		(e) { } } else setTimeout(gafn, 1000); }; gafn(); ]]>
+		
+		
+		
+		
+	</script>
+
+</zk>

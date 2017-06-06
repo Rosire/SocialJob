@@ -1,0 +1,122 @@
+<?page title="Social Job"?>
+<?link rel="shortcut icon" type="image/x-icon" href="/imagen/link.png"?>
+<?link rel="icon" type="image/x-icon" href="/imagen/link.png"?>
+<?init class="controlador.ControladorAutenticacion"?>
+
+<!-- Fuente -->
+
+<?link href="less/fonts.css" rel="stylesheet" type="text/css"?>
+<!-- Load Bootstrap  -->
+<?link href="less/index.css.dsp" rel="stylesheet" type="text/css"?>
+<?link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"?>
+<?link href="bootstrap/css/font-awesome.css" rel="stylesheet" type="text/css"?>
+
+<?link href="materialize/css/materialize.css" rel="stylesheet" type="text/css"?>
+
+<?script src="bootstrap/js/bootstrap.min.js" ?>
+<?script src="materialize/js/materialize.js" ?>
+
+<?link rel="stylesheet" type="text/css"	href="/slider/jquery.bxslider.css" ?>
+<zk xmlns:n="native">
+	<div apply="controlador.ControladorIndexRegistrado">
+
+		<div id="divNavbar">
+			<!-- Se llena desde el Controlador -->
+		</div>
+		<hlayout spacing="0">
+			<div id="divSidebar">
+
+			</div>
+			<vlayout id="vlayoutPaginaCental" spacing="0" hflex="1">
+
+				<include src="vista/barraCentral.zul"></include>
+				<div apply="org.zkoss.bind.BindComposer"
+					viewModel="@id('vm') @init('controlador.ControladorCambioPagina')"
+					zindex="-1">
+				<!--  	<include src="/principalAdministrador.zul"
+						progressing="true">
+					</include>-->
+					  <include src="@load(vm.srcPaginaCentral)"
+						progressing="true">
+						</include>
+				</div>
+			</vlayout>
+			<include src="vista/twitter.zul"></include>
+
+		</hlayout>
+		<separator spacing="80px"></separator>
+		<include src="vista/footer.zul" />
+		<!-- Include the jQuery plugins to draw the chart -->
+
+		<script src="/bootstrap/js/bootstrap.min.js"></script>
+		<script src="/materialize/js/materialize.js"></script>
+		<script src="/materialize/js/materialize.min.js"></script>
+
+
+<style src="/slider/jquery.bxslider.css" />
+	<script type="text/javascript" src="/slider/jquery.bxslider.js" />
+		<script
+			if='${execution.serverName == "www.zkoss.org" or execution.serverName == "www.potix.com"}'>
+
+
+
+
+			
+			<![CDATA[ var gaJsHost = (("https:" ==
+			document.location.protocol) ? "https://ssl." :
+			"http://www."); document.write(unescape("%3Cscript src='" +
+			gaJsHost + "google-analytics.com/ga.js'
+			type='text/javascript'%3E%3C/script%3E"));
+
+			var gafn = function () { if (window._gat) { gafn = null; try
+			{ var pageTracker = _gat._getTracker("UA-121377-3");
+			pageTracker._setDomainName("zkoss.org");
+			pageTracker._initData(); pageTracker._trackPageview();
+
+			} catch (e) { } } else setTimeout(gafn, 1000); }; gafn();
+			]]>
+			
+			
+			
+			
+		
+		
+	</script>
+
+		<script>
+			
+			<![CDATA[ zk.afterMount(function () {
+			$.getScript("materialize/js/materialize.min.js", function ()
+			{ if (location.hash && (!zk.ie || zk.ie > 8)) {
+			setTimeout(function () { $('.bs-sidebar a[href~="'+
+			location.hash + '"]')[0].click();
+			$(document.body).scrollspy('process'); }, 300); } });
+			$(document).ready(function(){
+			$('.materialboxed').materialbox(); }); });
+
+			]]>
+			
+			
+	</script>
+
+		<script>
+
+			
+			<![CDATA[ zk.afterMount(function () {
+			$.getScript("bootstrap/js/bootstrap.min.js", function () {
+			if (location.hash && (!zk.ie || zk.ie > 8)) {
+			setTimeout(function () { $('.bs-sidebar a[href~="'+
+			location.hash + '"]')[0].click();
+			$(document.body).scrollspy('process'); }, 300); } });
+
+
+
+
+			});
+
+			]]>
+			
+	
+	</script>
+	</div>
+</zk>

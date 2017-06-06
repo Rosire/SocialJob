@@ -1,0 +1,90 @@
+<!-- <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration 
+	DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> 
+	<hibernate-configuration> <session-factory> <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property> 
+	<property name="connection.driver_class">org.postgresql.Driver</property> 
+	<property name="connection.url">jdbc:postgresql://localhost:5432/SocialJob</property> 
+	<property name="connection.username">postgres</property> <property name="connection.password">postgres</property> 
+	<property name="cache.provider_class">org.hibernate.cache.HashtableCacheProvider</property> 
+	<property name="transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property> 
+	<property name="current_session_context_class">thread</property> <property 
+	name="hibernate.show_sql">false</property> <property name="hibernate.format_sql">true</property> 
+	
+	<mapping class="modelo.dto.BitacoraSolicitud" /> 
+	<mapping class="modelo.dto.BitacoraTareaAsignada" /> 
+	<mapping class="modelo.dto.BitacoraTareaRepetitivaAsignada" /> 
+	<mapping class="modelo.dto.Cargo" /> 
+	<mapping class="modelo.dto.CargoEmpleado" /> 
+	<mapping class="modelo.dto.Empresa" />
+	 <mapping class="modelo.dto.Estatus" />
+	  <mapping class="modelo.dto.EstatusMensaje" />
+	   <mapping class="modelo.dto.EstatusNotificacion" />
+	    <mapping class="modelo.dto.EstatusSolicitud" />
+	 <mapping class="modelo.dto.EstatusTareaAsignada" />
+	  <mapping class="modelo.dto.Frecuencia" /> 
+	<mapping class="modelo.dto.ItemMenu" />
+	 <mapping class="modelo.dto.Mensaje" />
+	 <mapping class="modelo.dto.Menu" /> 
+	<mapping class="modelo.dto.NotificacionSolicitud" />
+	 <mapping class="modelo.dto.NotificacionTareaAsignada" /> 
+	 <mapping class="modelo.dto.NotificacionTareaRepetitivaAsignada" /> 
+	<mapping class="modelo.dto.Prioridad" /> 
+	<mapping class="modelo.dto.Solicitud" /> 
+	<mapping class="modelo.dto.Tarea" />
+	 <mapping class="modelo.dto.TareaAsignada" /> 
+	<mapping class="modelo.dto.TareaRepetitiva" /> 
+	<mapping class="modelo.dto.TareaRepetitivaAsignada" /> 
+	<mapping class="modelo.dto.TipoItem" />
+	 <mapping class="modelo.dto.TipoUsuario" />
+	  <mapping class="modelo.dto.Usuario" />
+	 </session-factory> </hibernate-configuration> -->
+
+
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+		<property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		<property name="connection.driver_class">org.postgresql.Driver</property>
+		<property name="connection.url">jdbc:postgresql://localhost:5432/SocialJob</property>
+		<property name="connection.username">postgres</property>
+		<property name="connection.password">postgres</property>
+		<property name="cache.provider_class">org.hibernate.cache.HashtableCacheProvider</property>
+		<property name="transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+		<property name="current_session_context_class">thread</property>
+		<property name="hibernate.show_sql">false</property>
+		<property name="hibernate.format_sql">true</property>
+
+		<mapping class="modelo.dto.BitacoraSolicitud" />
+		<mapping class="modelo.dto.BitacoraTareaAsignada" />
+		<mapping class="modelo.dto.BitacoraTareaRepetitivaAsignada" />
+		<mapping class="modelo.dto.Cargo" />
+		<mapping class="modelo.dto.CargoEmpleado" />
+		<mapping class="modelo.dto.Estatus" />
+		<mapping class="modelo.dto.EstatusMensaje" />
+		<mapping class="modelo.dto.EstatusNotificacion" />
+		<mapping class="modelo.dto.EstatusSolicitud" />
+		<mapping class="modelo.dto.EstatusTareaAsignada" />
+		<mapping class="modelo.dto.Empresa" />
+		<mapping class="modelo.dto.Frecuencia" />
+		<mapping class="modelo.dto.ItemMenu" />
+		<mapping class="modelo.dto.Mensaje" />
+		 <mapping class="modelo.dto.Menu" /> 
+		<mapping class="modelo.dto.NotificacionSolicitud" />
+		<mapping class="modelo.dto.NotificacionTareaAsignada" />
+		<mapping class="modelo.dto.NotificacionTareaRepetitivaAsignada" />
+		<mapping class="modelo.dto.Prioridad" />
+		<mapping class="modelo.dto.Solicitud" />
+		<mapping class="modelo.dto.Tarea" />
+		<mapping class="modelo.dto.TareaAsignada" />
+		<mapping class="modelo.dto.TareaRepetitiva" />
+		<mapping class="modelo.dto.TareaRepetitivaAsignada" />
+		<mapping class="modelo.dto.TipoUsuario" />
+		<mapping class="modelo.dto.TipoItem" />
+		<mapping class="modelo.dto.Usuario" />
+
+	</session-factory>
+
+</hibernate-configuration>
